@@ -8,6 +8,7 @@
     }
     p {
         @apply font-archivo;
+        @apply text-white;
     }
 }
 
@@ -22,6 +23,7 @@ body{
 
 .nav-active p {
     visibility: visible;
+    @apply text-vertClair;
 }
 
 .nav-active svg,
