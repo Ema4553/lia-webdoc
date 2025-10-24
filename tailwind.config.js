@@ -7,7 +7,16 @@ module.exports = {
     "./dist/**/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'archivo': ['Archivo', 'sans-serif'],
+        'monda': ['Monda', 'sans-serif'],
+      },
+      colors: {
+        'vertClair': '#00C469',
+        'vertFonce': '#004625',
+      },
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,31 @@
 @tailwind base; 
 @tailwind components; 
 @tailwind utilities;
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-monda;
+    }
+    p {
+        @apply font-archivo;
+    }
+}
+
+/* Exemple : bouton */
+@layer components {
+}
+
+body{
+    background: radial-gradient(#2E2E2E, #1A1A1A);
+    min-height: 100vh;
+}
+
+.nav-active p {
+    visibility: visible;
+}
+
+.nav-active svg,
+.nav-selected {
+    @apply fill-vertClair opacity-100;
+}
+
