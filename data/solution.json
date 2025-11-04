@@ -1,0 +1,74 @@
+[
+    {
+        "solution_id": 1,
+        "nb_etapes" : 5,
+        "etapes":[
+            {
+                "etape_id":1,
+                "title": "La machine cliente fait une requête directe",
+                "description": "Chaque développeur ou machine demande directement un package au dépôt en ligne (comme Maven Central, npm, etc.). Chaque requête part indépendamment, sans contrôle centralisé.",
+                "image": "../assets/solution/probleme-1.png"
+            },
+            {
+                "etape_id":2,
+                "title" : "Le dépôt reçoit plusieurs requêtes identiques",
+                "description": "Si plusieurs machines demandent le même package en même temps, le dépôt reçoit des requêtes répétées pour le même fichier, ce qui augmente la charge sur le serveur distant.",
+                "image": "../assets/solution/probleme-2.png"
+            },
+            {
+                "etape_id":3,
+                "title" : "Téléchargement du package par chaque machine",
+                "description": "Chaque machine télécharge sa propre copie du package, même si d’autres machines l’ont déjà récupéré. Cela génère du surtéléchargement, gaspillant la bande passante et le temps.",
+                "image": ""
+            },
+            {
+                "etape_id":4,
+                "title" : "Absence de gestion de cache",
+                "description": "Aucun mécanisme ne stocke les packages localement pour les réutiliser. Chaque téléchargement est refait depuis zéro, même pour des fichiers volumineux déjà téléchargés par d’autres machines.",
+                "image": ""
+            },
+            {
+                "etape_id":5,
+                "title" : "Difficulté de suivi et de gestion",
+                "description": "Sans serveur central ni interface, il est difficile de savoir quels packages sont utilisés, leur version ou leur volume. Il n’y a pas de mécanisme pour supprimer automatiquement les fichiers anciens ou inutilisés.",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "solution_id": 2,
+        "nb_etapes" : 5,
+        "etapes":[
+            {
+                "etape_id":1,
+                "title": "Redirection via le proxy",
+                "description": "Chaque machine cliente utilise un petit proxy qui intercepte les demandes de packages et les redirige vers le serveur HTTP central. Cela permet de contrôler et centraliser toutes les requêtes.",
+                "image": "../assets/solution/solution-1.png"
+            },
+            {
+                "etape_id":2,
+                "title": "Analyse par le serveur HTTP",
+                "description": "Le serveur HTTP reçoit la requête du proxy, identifie le package demandé et choisit quel gestionnaire de cache doit traiter la demande. Il fait le lien entre le client et le cache.",
+                "image": "../assets/solution/solution-2.png"
+            },
+            {
+                "etape_id":3,
+                "title" : "Vérification dans le cache",
+                "description": "Le gestionnaire de cache regarde dans sa base de données si le package existe déjà. Si oui → il le renvoie directement. Si non → il récupère le package depuis la source, le stocke, puis le renvoie.",
+                "image": "../assets/solution/solution-3.png"
+            },
+            {
+                "etape_id": 4,
+                "title" : "Gestion de la durée de vie",
+                "description": "Chaque package a une durée de vie. À chaque utilisation, cette durée est réinitialisée. Une fois expirée, le package est supprimé du cache pour éviter l’encombrement.",
+                "image": "../assets/solution/solution-4.png"
+            },
+            {
+                "etape_id": 5,
+                "title" : "Interface de gestion",
+                "description": "Le serveur HTTP propose une interface simple pour suivre les packages, gérer leur cache et visualiser leur durée de vie, facilitant l’administration du système.",
+                "image": "../assets/solution/solution-5.png"
+            }
+        ]
+    }
+]

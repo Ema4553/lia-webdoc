@@ -31,3 +31,17 @@ body{
     @apply fill-vertClair opacity-100;
 }
 
+.steps {
+    position: relative;
+}
+
+.steps::before {
+    content: '';
+    position: absolute;
+    inset: 0; 
+    margin: auto auto; 
+    height: 1px;
+    width: 25rem;
+    background-color: #d2d2d2;
+    z-index: -1;
+}

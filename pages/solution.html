@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LIA - Solution</title>
     <link href="../dist/style.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,8 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <nav class="w-fit px-5 shadow-lg shadow-white/50">
+<body class="grid grid-cols-[auto_1fr]">
+    <nav class="w-fit px-5 shadow-lg shadow-white/50 ">
         <ul class="text-vertClair h-screen flex flex-col justify-between text-center items-center py-10">
             <li>
                 <a href="./timeline.html" class="flex flex-col items-center gap-2">
@@ -109,7 +109,7 @@
                         </defs>
                     </svg>
 
-                    <p class="font-monda">SOLUTION</p>
+                    <p class="font-monda text-vertClair">SOLUTION</p>
                 </a>
             </li>
             <li>
@@ -132,7 +132,41 @@
             </li>
         </ul>
     </nav>
+    <section class="mx-7 lg:mx-40 mt-10 text-center text-white">
+        <h1 class="text-xl lg:text-2xl">Découvrez notre solution contre le sur-téléchargement !</h1>
+        <p class="text-sm mt-5 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida orci
+            eget justo mollis sollicitudin. Ut finibus justo sed rutrum interdum. Proin vel odio in dui blandit
+            pellentesque. Integer vehicula massa non lorem eleifend maximus. Vivamus volutpat metus libero, sit amet
+            feugiat quam imperdiet a.</p>
+
+        <div class="flex flex-col justify-center items-center gap-10">
+            <label class="relative inline-flex items-center cursor-pointer mt-10 btn-switch">
+                <input type="checkbox" class="sr-only peer">
+                <div
+                    class="w-48 h-10 bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 backdrop-saturate-100 backdrop-contrast-100 shadow-[inset_0_0_1px_rgba(255,255,255,0.3)] rounded-full transition-colors duration-300">
+                </div>
+                <div class="absolute w-28 h-10 bg-vertFonce bg-clip-padding backdrop-filter backdrop-blur bg-opacity-80 backdrop-saturate-100 backdrop-contrast-100 shadow-[inset_0_0_2px_rgba(255,255,255,0.2)] rounded-full transition-all duration-300 peer-checked:translate-x-20 peer-checked:bg-vertClair peer-checked:bg-opacity-30
+                           flex items-center justify-center
+                           before:content-['Avant'] peer-checked:before:content-['Après']
+                           before:text-white before:font-semibold">
+                </div>
+            </label>
+            <section class="flex flex-col items-stretch gap-5 w-9/12">
+                <div class="steps"></div>
+                <div
+                    class="info-solution bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 backdrop-saturate-100 backdrop-contrast-100 shadow-[inset_0_0_5px_rgba(255,255,255,0.3)] w-full h-52 rounded-2xl grid grid-cols-[1fr_3fr] items-center justify-items-start">
+                </div>
+                <div class="flex flex-row justify-between">
+                    <button class="btn-prev w-28 h-10 bg-vertFonce rounded-lg font-semibold invisible">❮
+                        Précédant</button>
+                    <button class="btn-next w-24 h-10 bg-vertClair rounded-lg font-semibold">Suivant ❯</button>
+                </div>
+            </section>
+
+        </div>
+    </section>
+    <script type="module" src="../js/solution.js"></script>
+    <script type="module" src="../js/navbar.js"></script>
 </body>
-<script type="module" src="../js/main.js"></script>
 
 </html>
