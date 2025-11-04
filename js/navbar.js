@@ -1,5 +1,12 @@
 'use strict';
 
+(function main(){
+    'use strict';
+    
+    setupNavbar();
+  }
+  )();
+
 export function setupNavbar() {
     document.addEventListener('DOMContentLoaded', function () {
         const onglets = document.querySelectorAll('nav li');

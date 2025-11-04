@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "thumbnail": "../assets/images/image-test.png",
+      "images": [
+        "../assets/images/image-test.png",
+        "../assets/images/image-test2.png",
+        "../assets/images/image-test3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "thumbnail": "../assets/images/image-test.png",
+      "images": [
+        "../assets/images/image-test.png",
+        "../assets/images/image-test2.png",
+        "../assets/images/image-test3.png"
+      ]
+    }
+  ]
+  

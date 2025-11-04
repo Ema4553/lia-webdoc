@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         'archivo': ['Archivo', 'sans-serif'],
         'monda': ['Monda', 'sans-serif'],
+        'century-gothic': ['Century Gothic', 'sans-serif'],
       },
       colors: {
         'vertClair': '#00C469',
