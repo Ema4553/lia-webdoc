@@ -12,13 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Monda:wght@400..700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body class="grid grid-cols-[auto_1fr] grid-rows-1 h-screen overflow-hidden">
     <nav class="w-fit px-5 shadow-lg shadow-white/50 ">
         <ul class="text-vertClair h-screen flex flex-col justify-between text-center items-center py-10">
             <li>
-                <a href="./timeline.html" class="flex flex-col items-center gap-2">
+                <a href="./timeline.html" class="flex flex-col items-center gap-2 hover:scale-105 transition-transform duration-300 ease-in-out">
                     <svg width="50" viewBox="0 0 74 84" class="fill-white opacity-50 "
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_15_89)">
@@ -35,7 +37,7 @@
                     <p class="font-monda invisible">VIDÉOS</p>
                 </a>
             </li>
-            <li class="nav-selected">
+            <li class="nav-selected nav-active">
                 <a href="./carrousels.html" class="flex flex-col items-center gap-2">
                     <svg width="50" viewBox="0 0 84 84" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_15_91)">
@@ -52,7 +54,7 @@
                 </a>
             </li>
             <li>
-                <a href="../index.html" class="flex flex-col items-center gap-2">
+                <a href="../index.html" class="flex flex-col items-center gap-2 hover:scale-105 transition-transform duration-300 ease-in-out">
                     <svg width="50" viewBox="0 0 408 408" version="1.1" class="fill-white opacity-50"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         xml:space="preserve" xmlns:serif="http://www.serif.com/"
@@ -94,7 +96,7 @@
                 </a>
             </li>
             <li>
-                <a href="./solution.html" class="flex flex-col items-center gap-2">
+                <a href="./solution.html" class="flex flex-col items-center gap-2 hover:scale-105 transition-transform duration-300 ease-in-out">
                     <svg height="50" viewBox="0 0 58 84" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="fill-white  opacity-50 ">
                         <g clip-path="url(#clip0_15_96)">
@@ -112,7 +114,7 @@
                 </a>
             </li>
             <li>
-                <a href="./about.html" class="flex flex-col items-center gap-2">
+                <a href="./about.html" class="flex flex-col items-center gap-2 hover:scale-105 transition-transform duration-300 ease-in-out">
                     <svg width="50" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="fill-white opacity-50">
                         <g clip-path="url(#clip0_15_98)">
@@ -145,7 +147,7 @@
         <div
             class="bg-black/80 rounded-tl-[5vw] shadow-lg shadow-white/50 flex flex-col px-6 pb-10 lg:px-16 gap-7 overflow-y-auto h-screen">
             <div class="flex flex-nowrap items-center gap-5 pt-6">
-                <img src="../assets/images/RSE_0922_LIALogo_V1.svg" alt="Logo LIA" class="w-20">
+                <img src="../assets/images/logo-fond-vert.png" alt="Logo LIA" class="w-20 border-white border-2 rounded-full">
                 <h2 class="text-white text-xl lg:text-4xl font-century-gothic font-semibold">lia</h2>
             </div>
             <div class="flex flex-nowrap gap-11">
@@ -156,11 +158,10 @@
             <p class="font-century-gothic text-xs lg:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc gravida orci eget justo mollis sollicitudin. Ut finibus justo sed rutrum interdum. </p>
             <div class="flex flex-nowrap justify-between lg:mr-5">
-                <button
-                    class="bg-vertClair text-white md:text-base py-1 px-2 md:py-2 md:px-3  lg:px-8 lg:py-4 rounded-lg font-bold"
+                <button class="bg-vertClair text-white md:text-base py-1 px-2 md:py-2 md:px-3 lg:px-8 lg:py-4 rounded-lg font-bold hover:bg-vertClair/50 transition-colors duration-300 ease-in-out"
                     onclick="window.location.href = 'https://www.google.com'">Suivre +</button>
                 <button
-                    class="bg-vertFonce text-white md:text-base py-1 px-2 md:py-2 md:px-3 lg:px-8 lg:py-4 rounded-lg font-bold"
+                    class="bg-vertFonce text-white md:text-base py-1 px-2 md:py-2 md:px-3 lg:px-8 lg:py-4 rounded-lg font-bold hover:bg-vertFonce/50 transition-colors duration-300 ease-in-out"
                     onclick="window.location.href='mailto:folders.lia@gmail.com'">
                     Contacter
                 </button>

@@ -6,6 +6,14 @@ module.exports = {
     './src/**/*.js',
     "./dist/**/*.html"
   ],
+  safelist: [
+    'w-5', 'h-5', 'w-10', 'h-10',
+    'rounded-full',
+    'object-cover',
+    'flex', 'items-center', 'gap-2',
+    'font-century-gothic',
+    'text-gray-800'
+  ],
   theme: {
     extend: {
       fontFamily: {

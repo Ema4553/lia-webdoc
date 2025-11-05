@@ -1,4 +1,4 @@
-(function main(){
+(function main() {
   'use strict';
 
   setupCarrousels();
@@ -23,13 +23,23 @@ export async function setupCarrousels() {
       const img = document.createElement('img');
       img.src = carrousel.thumbnail;
       img.alt = `Carrousel ${carrousel.id}`;
-      img.className = 'carrousel overflow-hidden';
       img.style.borderRadius = '15px';
       img.style.cursor = 'pointer';
+      img.onmouseenter = () => {
+        img.style.transform = 'scale(1.05)';
+        img.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.5)';
+        img.style.transition = 'transform 0.3s ease-in-out';
+      };
+
+      img.onmouseleave = () => {
+        img.style.transform = 'scale(1)';
+        img.style.boxShadow = 'none';
+        img.style.transition = 'transform 0.3s ease-in-out';
+      };
 
       img.addEventListener('click', () => {
-        currentImages = carrousel.images; 
-        currentIndex = 0; 
+        currentImages = carrousel.images;
+        currentIndex = 0;
         afficherCarrousel(emplacement);
       });
 
@@ -66,14 +76,14 @@ function afficherCarrousel(emplacement) {
   post.style.gridTemplateRows = 'auto 1fr auto';
   post.style.overflow = 'hidden';
 
-  let height = '24rem'; 
-  
+  let height = '24rem';
+
   if (window.matchMedia('(min-width: 1024px)').matches) {
     height = '24rem';
   } else if (window.matchMedia('(min-width: 768px)').matches) {
-    height = '20rem'; 
+    height = '20rem';
   }
-  
+
   post.style.height = height;
 
 
@@ -83,7 +93,7 @@ function afficherCarrousel(emplacement) {
   header.style.padding = '10px';
   header.innerHTML = `
     <div class="flex items-center gap-2">
-      <img src="../assets/images/RSE_0922_LIALogo_V1.svg" alt="Profil" class="w-5 h-5 rounded-full object-cover">
+      <img src="../assets/images/logo-fond-vert.png" alt="Profil" class="w-8 h-8 rounded-full object-cover">
       <span class="font-century-gothic font-semibold text-gray-800">lia</span>
     </div>
   `;
@@ -95,13 +105,14 @@ function afficherCarrousel(emplacement) {
 
   //Pied de post
   const footer = document.createElement('div');
-  footer.className = 'flex justify-around';
   footer.style.paddingLeft = '10px';
-  footer.style.paddingTop = '3px';
+  footer.style.paddingTop = '7px';
+  footer.style.display = 'flex';
+  footer.style.gap = '10px';
   footer.innerHTML = `
-    <button>❤️</button>
-    <button>💬</button>
-    <button>✈️</button>
+    <i class="fa-solid fa-heart" style="color: #e61919;"></i>
+    <i class="fa-regular fa-comment" style="color: #000000;"></i>
+    <i class="fa-regular fa-paper-plane" style="color: #000000;"></i>
   `;
 
   post.appendChild(header);
