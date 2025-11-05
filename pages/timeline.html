@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LIA - Timeline</title>
     <link href="../dist/style.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,13 +14,12 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="grid grid-cols-[auto_1fr] grid-rows-1 gap-2">
     <nav class="w-fit px-5 shadow-lg shadow-white/50">
         <ul class="text-vertClair h-screen flex flex-col justify-between text-center items-center py-10">
-            <li class="nav-selected">
+            <li class="nav-selected nav-active">
                 <a href="./timeline.html" class="flex flex-col items-center gap-2">
-                    <svg width="50" viewBox="0 0 74 84"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg width="50" viewBox="0 0 74 84" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_15_89)">
                             <path
                                 d="M0 76.125C0 80.4727 3.55134 84 7.92857 84H66.0714C70.4487 84 74 80.4727 74 76.125V31.5H0V76.125ZM52.8571 43.9688C52.8571 42.8859 53.7491 42 54.8393 42H61.4464C62.5366 42 63.4286 42.8859 63.4286 43.9688V50.5312C63.4286 51.6141 62.5366 52.5 61.4464 52.5H54.8393C53.7491 52.5 52.8571 51.6141 52.8571 50.5312V43.9688ZM52.8571 64.9688C52.8571 63.8859 53.7491 63 54.8393 63H61.4464C62.5366 63 63.4286 63.8859 63.4286 64.9688V71.5312C63.4286 72.6141 62.5366 73.5 61.4464 73.5H54.8393C53.7491 73.5 52.8571 72.6141 52.8571 71.5312V64.9688ZM31.7143 43.9688C31.7143 42.8859 32.6063 42 33.6964 42H40.3036C41.3937 42 42.2857 42.8859 42.2857 43.9688V50.5312C42.2857 51.6141 41.3937 52.5 40.3036 52.5H33.6964C32.6063 52.5 31.7143 51.6141 31.7143 50.5312V43.9688ZM31.7143 64.9688C31.7143 63.8859 32.6063 63 33.6964 63H40.3036C41.3937 63 42.2857 63.8859 42.2857 64.9688V71.5312C42.2857 72.6141 41.3937 73.5 40.3036 73.5H33.6964C32.6063 73.5 31.7143 72.6141 31.7143 71.5312V64.9688ZM10.5714 43.9688C10.5714 42.8859 11.4634 42 12.5536 42H19.1607C20.2509 42 21.1429 42.8859 21.1429 43.9688V50.5312C21.1429 51.6141 20.2509 52.5 19.1607 52.5H12.5536C11.4634 52.5 10.5714 51.6141 10.5714 50.5312V43.9688ZM10.5714 64.9688C10.5714 63.8859 11.4634 63 12.5536 63H19.1607C20.2509 63 21.1429 63.8859 21.1429 64.9688V71.5312C21.1429 72.6141 20.2509 73.5 19.1607 73.5H12.5536C11.4634 73.5 10.5714 72.6141 10.5714 71.5312V64.9688ZM66.0714 10.5H58.1429V2.625C58.1429 1.18125 56.9536 0 55.5 0H50.2143C48.7607 0 47.5714 1.18125 47.5714 2.625V10.5H26.4286V2.625C26.4286 1.18125 25.2393 0 23.7857 0H18.5C17.0464 0 15.8571 1.18125 15.8571 2.625V10.5H7.92857C3.55134 10.5 0 14.0273 0 18.375V26.25H74V18.375C74 14.0273 70.4487 10.5 66.0714 10.5Z" />
@@ -32,7 +31,7 @@
                         </defs>
                     </svg>
 
-                    <p class="font-monda">VIDÉOS</p>
+                    <p class="font-monda text-vertClair">VIDÉOS</p>
                 </a>
             </li>
             <li>
@@ -133,7 +132,80 @@
             </li>
         </ul>
     </nav>
+
+    <section class="flex flex-row text-center items-center justify-center gap-4 lg:gap-32 lg:mx-48">
+        <div class="flex flex-col gap-8 lg:gap-12">
+            <h1 class="text-white text-3xl lg:my-6">Découvrez nos vidéos !</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida orci eget justo mollis
+                sollicitudin. Ut finibus justo sed rutrum interdum. Proin vel odio in dui blandit pellentesque. Integer
+                vehicula massa non lorem eleifend maximus. Vivamus volutpat metus libero, sit amet feugiat quam
+                imperdiet a.</p>
+
+            <p class="text-vertClair text-lg">Scrollez pour découvrir nos vidéos !</p>
+        </div>
+
+        <div>
+            <div class="perspective-1000">
+                <div
+                    class="bg-gray-900 w-40 lg:w-80 h-[350px] lg:h-[700px] mx-auto relative rounded-[20px] lg:rounded-[40px] overflow-hidden shadow-2xl transition-transform duration-300 hover:rotate-y-5 hover:rotate-x-5">
+                    <!-- Boutons latéraux du téléphone -->
+                    <div class="absolute top-20 -right-[3px] w-[3px] h-10 bg-gray-700 rounded"></div>
+                    <div class="absolute top-32 -right-[3px] w-[3px] h-10 bg-gray-700 rounded"></div>
+                    <div class="absolute top-48 -left-[3px] w-[3px] h-14 bg-gray-700 rounded"></div>
+
+                    <!-- Encoche du téléphone -->
+                    <div
+                        class="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-3 lg:h-6 bg-black rounded-b-xl z-10">
+                    </div>
+
+                    <!-- Écran du téléphone -->
+                    <div class="h-full w-full pt-6 bg-black overflow-hidden" id="phoneScreen">
+                        <!-- Les vidéos seront chargées dynamiquement ici -->
+                        <!-- Quand on aura les vidéos hébergées sur Youtube on pourra mettre : https://www.youtube.com/embed?listType=user_uploads&list=USERNAME -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template pour une vidéo -->
+            <template id="videoTemplate">
+                <div class="h-full w-full flex items-center justify-center relative group" data-video-id="">
+                    <div class="w-full h-full bg-black relative overflow-hidden">
+                        <!-- Iframe YouTube -->
+                        <iframe class="w-full h-full pointer-events-none" src="" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
+                        <!-- Overlay pour les interactions (couvre tout l'écran) -->
+                        <div class="absolute inset-0 bg-transparent cursor-pointer" data-video-overlay>
+                            <!-- Indicateur de lecture/pause -->
+                            <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300"
+                                data-play-pause-indicator>
+                                <div class="bg-black/50 rounded-full p-4">
+                                    <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path id="play-icon" d="M8 5v14l11-7z" class="hidden" />
+                                        <path id="pause-icon" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" class="hidden" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Overlay avec informations et actions (en bas) -->
+                        <div
+                            class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 text-white pointer-events-none">
+                            <h3 class="font-semibold text-lg" data-video-title></h3>
+                            <p class="text-sm opacity-90" data-video-description></p>
+                            <div class="flex items-center space-x-4 mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </section>
 </body>
-<script type="module" src="../js/main.js"></script>
+<script type="module" src="../js/navbar.js"></script>
+<script type="module" src="../js/scrollPhone.js"></script>
 
 </html>
