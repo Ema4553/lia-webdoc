@@ -76,12 +76,12 @@ function afficherCarrousel(emplacement) {
   post.style.gridTemplateRows = 'auto 1fr auto';
   post.style.overflow = 'hidden';
 
-  let height = '24rem';
+  let height = '28rem';
 
   if (window.matchMedia('(min-width: 1024px)').matches) {
-    height = '24rem';
+    height = '28rem';
   } else if (window.matchMedia('(min-width: 768px)').matches) {
-    height = '20rem';
+    height = '24rem';
   }
 
   post.style.height = height;
@@ -93,7 +93,7 @@ function afficherCarrousel(emplacement) {
   header.style.padding = '10px';
   header.innerHTML = `
     <div class="flex items-center gap-2">
-      <img src="../assets/images/logo-fond-vert.png" alt="Profil" class="w-8 h-8 rounded-full object-cover">
+      <img src="../assets/images/logo-fond-vert.png" alt="Profil" class="w-5 h-5 rounded-full object-cover">
       <span class="font-century-gothic font-semibold text-gray-800">lia</span>
     </div>
   `;
