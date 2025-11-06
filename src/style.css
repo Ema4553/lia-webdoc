@@ -28,7 +28,7 @@ body{
 
 .nav-active svg,
 .nav-selected {
-    @apply fill-vertClair opacity-100;
+    @apply fill-vertClair stroke-vertClair opacity-100 ;
 }
 
 .steps {

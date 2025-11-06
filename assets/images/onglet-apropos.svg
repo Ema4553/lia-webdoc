@@ -1,10 +1,21 @@
-<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_15_98)">
-<path d="M84 42C84 65.2011 65.1943 84 42 84C18.8057 84 0 65.2011 0 42C0 18.8124 18.8057 0 42 0C65.1943 0 84 18.8124 84 42ZM43.1271 13.8871C33.8977 13.8871 28.0113 17.775 23.3889 24.6848C22.7901 25.58 22.9904 26.7874 23.8487 27.4382L29.7252 31.8939C30.6067 32.5624 31.8626 32.4033 32.5475 31.5345C35.5728 27.6973 37.6472 25.4722 42.252 25.4722C45.7118 25.4722 49.9912 27.6988 49.9912 31.0538C49.9912 33.59 47.8974 34.8925 44.4814 36.8078C40.4975 39.041 35.2258 41.8207 35.2258 48.7742V49.4516C35.2258 50.5739 36.1357 51.4839 37.2581 51.4839H46.7419C47.8643 51.4839 48.7742 50.5739 48.7742 49.4516V49.2259C48.7742 44.4057 62.8621 44.205 62.8621 31.1613C62.8621 21.3384 52.6729 13.8871 43.1271 13.8871ZM42 55.8871C37.7043 55.8871 34.2097 59.3817 34.2097 63.6774C34.2097 67.9729 37.7043 71.4677 42 71.4677C46.2957 71.4677 49.7903 67.9729 49.7903 63.6774C49.7903 59.3817 46.2957 55.8871 42 55.8871Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0_15_98">
-<rect width="84" height="84" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%"
+    height="100%" viewBox="0 0 1366 1366" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <rect id="Équipe---Gris" serif:id="Équipe - Gris" x="0" y="0" width="1365.333" height="1365.333"
+        style="fill:none;" />
+    <g>
+        <g>
+            <path d="M395.828,1084.47C402.428,722.218 962.91,716.062 968.259,1084.47"
+                style="fill:none;stroke:#8e8e8e;stroke-width:83.33px;" />
+            <circle cx="682.671" cy="650.766" r="159.702" style="fill:none;stroke:#8e8e8e;stroke-width:83.33px;" />
+        </g>
+        <path
+            d="M1188.706,919.98C1174.097,784.88 1111.302,681.903 967.012,633.257C1260.621,421.965 888.662,125.902 747.812,375.529"
+            style="fill:none;stroke:#8e8e8e;stroke-width:83.33px;" />
+        <path
+            d="M175.381,919.98C189.99,784.88 252.784,681.903 397.074,633.257C103.466,421.965 475.424,125.902 616.274,375.529"
+            style="fill:none;stroke:#8e8e8e;stroke-width:83.33px;" />
+    </g>
 </svg>
