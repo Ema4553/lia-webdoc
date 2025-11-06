@@ -14,10 +14,10 @@
     let dotElements = [];
 
     const videosData = [
-      { id: 1, title: "1. Vidéo TikTok amusante", youtubeId: "nPBxq2ym3VE", description: "Une vidéo vraiment drôle à regarder encore et encore." },
-      { id: 2, title: "2. Tutoriel rapide", youtubeId: "xf8hypK_0h0", description: "Un tuto qui va droit au but." },
-      { id: 3, title: "3. Vidéo TikTok amusanteeeee", youtubeId: "nPBxq2ym3VE", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida orci eget justo mollis sollicitudin. Ut finibus justo sed rutrum interdum. Proin vel odio in dui blandit pellentesque. Integer vehicula massa non lorem eleifend maximus. Vivamus volutpat metus libero, sit amet feugiat quam imperdiet a." },
-      { id: 4, title: "4. Tutoriel rapideeeeee", youtubeId: "xf8hypK_0h0", description: "Toujours un tuto rapide." }
+      { id: 1, title: "1. Première vidéo", youtubeId: "nPBxq2ym3VE", description: "Description de la première vidéo." },
+      { id: 2, title: "2. Deuxième vidéo", youtubeId: "xf8hypK_0h0", description: "Description de la deuxième vidéo." },
+      { id: 3, title: "3. Troisième vidéo", youtubeId: "nPBxq2ym3VE", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida orci eget justo mollis sollicitudin. Ut finibus justo sed rutrum interdum. Proin vel odio in dui blandit pellentesque." },
+      { id: 4, title: "4. Quatrième vidéo", youtubeId: "xf8hypK_0h0", description: "Description de la quatrième vidéo." }
     ];
 
     // --- LOAD VIDEOS ---
