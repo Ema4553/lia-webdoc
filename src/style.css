@@ -1,11 +1,18 @@
-@tailwind base; 
-@tailwind components; 
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 @layer base {
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         @apply font-monda;
     }
+
     p {
         @apply font-archivo;
         @apply text-white;
@@ -13,10 +20,9 @@
 }
 
 /* Exemple : bouton */
-@layer components {
-}
+@layer components {}
 
-body{
+body {
     background: radial-gradient(#2E2E2E, #1A1A1A);
     min-height: 100vh;
 }
@@ -28,7 +34,7 @@ body{
 
 .nav-active svg,
 .nav-selected {
-    @apply fill-vertClair stroke-vertClair opacity-100 ;
+    @apply fill-vertClair stroke-vertClair opacity-100;
 }
 
 .steps {
@@ -38,10 +44,11 @@ body{
 .steps::before {
     content: '';
     position: absolute;
-    inset: 0; 
-    margin: auto auto; 
+    inset: 0;
+    margin: auto auto;
     height: 1px;
     width: 25rem;
     background-color: #d2d2d2;
     z-index: -1;
 }
+

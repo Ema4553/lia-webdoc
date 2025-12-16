@@ -54,8 +54,16 @@ function afficherCarrousel(emplacement) {
   const flecheGauche = document.querySelector('#btn-prev');
   const flecheDroite = document.querySelector('#btn-next');
 
-  flecheGauche.classList.remove('hidden');
-  flecheDroite.classList.remove('hidden');
+  if (currentIndex === 0) {
+    flecheGauche.classList.add('invisible');
+    flecheDroite.classList.remove('invisible');
+  } else if (currentIndex === currentImages.length -1) {
+    flecheGauche.classList.remove('invisible');
+    flecheDroite.classList.add('invisible');
+  } else {
+    flecheGauche.classList.remove('invisible');
+    flecheDroite.classList.remove('invisible');
+  }
 
   flecheGauche.onclick = () => {
     currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
