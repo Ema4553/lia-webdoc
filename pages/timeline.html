@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body class="grid grid-cols-[auto_1fr] grid-rows-1 gap-2">
+<body class="grid grid-cols-[auto_1fr] grid-rows-1 h-screen overflow-hidden">
     <nav class="w-24 lg:w-fit px-5 shadow-lg shadow-white/50">
         <ul class="text-vertClair h-screen flex flex-col justify-between text-center items-center py-10">
             <li class="nav-selected nav-active">
@@ -174,73 +174,17 @@
         </ul>
     </nav>
 
-    <section class="text-center">
-        <h1 class="text-white text-3xl lg:my-6">Découvrez nos vidéos !</h1>
-        <div class="flex flex-row items-center justify-center gap-4 lg:gap-32 lg:mt-20">
-            <div id="timelineWrapper" class="flex justify-center items-center gap-24">
-                <div id="timelineText" class="hidden flex flex-col bg-vertFonce/80 rounded-md px-6 py-5 w-80 gap-3">
-                    <!-- contenu textuel correspondant à la vidéo active en JS -->
-                </div>
-                <div id="timeline" class="relative w-8 lg:w-12 h-96 lg:h-[500px] flex items-center justify-center">
-                    <div class="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-white/60"></div>
-                    <!-- Les points seront ajoutés ici dynamiquement -->
-                </div>
-            </div>
+    <section class="min-h-screen flex flex-col justify-center items-center text-center text-white my-auto ">
+    <h1 class="text-2xl lg:text3xl mb-4 -ml-48 lg:mt-5 mt-10">Découvrez notre projet !</h1>
 
-            <div>
-                <div class="perspective-1000">
-                    <div
-                        class="bg-gray-900 w-40 lg:w-80 h-[350px] lg:h-[700px] mx-auto relative rounded-[20px] lg:rounded-[40px] overflow-hidden shadow-2xl transition-transform duration-300 hover:rotate-y-5 hover:rotate-x-5">
-                        <!-- Boutons latéraux du téléphone -->
-                        <div class="absolute top-20 -right-[3px] w-[3px] h-10 bg-gray-700 rounded"></div>
-                        <div class="absolute top-32 -right-[3px] w-[3px] h-10 bg-gray-700 rounded"></div>
-                        <div class="absolute top-48 -left-[3px] w-[3px] h-14 bg-gray-700 rounded"></div>
-
-                        <!-- Encoche du téléphone -->
-                        <div
-                            class="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-3 lg:h-6 bg-black rounded-b-xl z-10">
-                        </div>
-
-                        <!-- Écran du téléphone -->
-                        <div class="h-full w-full pt-6 bg-black overflow-hidden" id="phoneScreen">
-                            <!-- Les vidéos seront chargées dynamiquement ici -->
-                            <!-- Quand on aura les vidéos hébergées sur Youtube on pourra mettre : https://www.youtube.com/embed?listType=user_uploads&list=USERNAME -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Template pour une vidéo -->
-                <template id="videoTemplate">
-                    <div class="h-full w-full flex items-center justify-center relative group" data-video-id="">
-                        <div class="w-full h-full bg-black relative overflow-hidden">
-                            <!-- Iframe YouTube -->
-                            <iframe class="w-full h-full pointer-events-none" src="" title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-
-                            <!-- Overlay pour les interactions (couvre tout l'écran) -->
-                            <div class="absolute inset-0 bg-transparent cursor-pointer" data-video-overlay>
-                                <!-- Indicateur de lecture/pause -->
-                                <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300"
-                                    data-play-pause-indicator>
-                                    <div class="bg-black/50 rounded-full p-4">
-                                        <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                            <path id="play-icon" d="M8 5v14l11-7z" class="hidden" />
-                                            <path id="pause-icon" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" class="hidden" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-            </div>
-        </div>
-    </section>
+    <div class="flex flex-row items-center overflow-x-auto w-screen pr-52">
+        <p class="-rotate-90 text-2xl font-black">DÉBUT</p>
+        <div id="container-timeline" class="flex gap-8"></div>
+        <p class="-rotate-90 text-2xl font-black">FIN</p>
+    </div>
+</section>
 </body>
 <script type="module" src="../js/navbar.js"></script>
-<script type="module" src="../js/scrollPhone.js"></script>
+<script type="module" src="../js/videos.js"></script>
 
 </html>
