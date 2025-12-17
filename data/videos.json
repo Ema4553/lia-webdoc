@@ -2,55 +2,55 @@
     {
       "id": 1,
       "title": "titre 1",
-      "description": "contenu blabla 1",
-      "image": "../assets/videos1"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 2,
       "title": "titre 2",
-      "description": "contenu blabla 2",
-      "image": "../assets/videos2"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 3,
       "title": "titre 3",
-      "description": "contenu blabla 3",
-      "image": "../assets/videos3"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 4,
       "title": "titre 4",
-      "description": "contenu blabla 4",
-      "image": "../assets/videos4"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 5,
       "title": "titre 5",
-      "description": "contenu blabla 5",
-      "image": "../assets/videos5"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 6,
       "title": "titre 6",
-      "description": "contenu blabla 6",
-      "image": "../assets/videos6"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 7,
       "title": "titre 7",
-      "description": "contenu blabla 7",
-      "image": "../assets/videos7"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 8,
       "title": "titre 8",
-      "description": "contenu blabla 8",
-      "image": "../assets/videos8"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 9,
       "title": "titre 9",
-      "description": "contenu blabla 9",
-      "image": "../assets/videos9"
+      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "image": "../assets/videos/vache.jpg"
     }  
   ]

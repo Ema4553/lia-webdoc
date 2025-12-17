@@ -23,7 +23,7 @@ export async function setupVideos() {
         container.style.position = 'relative';
         
         // MODIFICATION : 4rem (haut), 10rem (droite), 4rem (bas), 2rem (gauche)
-        container.style.padding = '4rem 5rem 4rem 2rem'; 
+        container.style.padding = '4rem 0rem 4rem 2rem'; 
         
         container.style.alignItems = 'center'; 
 
@@ -38,7 +38,7 @@ export async function setupVideos() {
                 topWrapper.style.gridColumn = colIndex;
                 topWrapper.style.gridRow = '1';
                 topWrapper.style.width = '200px'; 
-                topWrapper.style.justifySelf = 'center'; 
+                topWrapper.style.justifySelf = 'start'; 
                 topWrapper.style.display = 'flex';
                 topWrapper.style.flexDirection = 'row'; 
                 topWrapper.style.alignItems = 'stretch';
@@ -52,19 +52,39 @@ export async function setupVideos() {
                 container.appendChild(topWrapper);
 
                 const img = createImagePlaceholder(colIndex);
+                img.style.overflow = 'hidden';
+
+                const image = document.createElement('img');
+                img.style.display = 'flex';
+                img.style.justifySelf = 'start';
+                image.src = video.image;
+                image.style.width = '200px';
+                image.style.height = 'auto';
+                
                 container.appendChild(img);
+                img.appendChild(image);
 
             } else {
                 // === CAS 2 : TEXTE EN BAS (avec barre à gauche) ===
                 
                 const img = createImagePlaceholder(colIndex);
+                img.style.display = 'flex';
+                img.style.justifySelf = 'start';
+                img.style.overflow = 'hidden';
+
+                const image = document.createElement('img');
+                image.src = video.image;
+                image.style.width = '200px';
+                image.style.height = 'auto';
+                
                 container.appendChild(img);
+                img.appendChild(image);
 
                 const bottomWrapper = document.createElement('div');
                 bottomWrapper.style.gridColumn = colIndex;
                 bottomWrapper.style.gridRow = '3';
                 bottomWrapper.style.width = '200px'; 
-                bottomWrapper.style.justifySelf = 'center';
+                bottomWrapper.style.justifySelf = 'start';
                 bottomWrapper.style.display = 'flex';
                 bottomWrapper.style.flexDirection = 'row'; 
                 bottomWrapper.style.alignItems = 'stretch';
@@ -92,7 +112,7 @@ function createImagePlaceholder(colIndex) {
     div.style.gridColumn = colIndex;
     div.style.gridRow = '2';
     div.style.width = '200px';
-    div.style.height = '350px';
+    div.style.height = '355px';
     div.style.backgroundColor = 'white';
     div.style.borderRadius = '8px';
     div.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.3)';
