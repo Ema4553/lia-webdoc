@@ -1,56 +1,44 @@
 [
     {
       "id": 1,
-      "title": "titre 1",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Présentation du projet",
+      "description": "Réflexion sur le sujet, définition de nos objectifs, choix des médias/supports pour notre projet.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 2,
-      "title": "titre 2",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Répartition du travail",
+      "description": "Chaque membre apporte les compétences de son parcours. Il y a trois équipes, la team création, la team communication et la team développement web.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 3,
-      "title": "titre 3",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "La Direction Artistique",
+      "description": "Création de l’identité visuelle de LIA par l’équipe créa avec le choix des couleurs, de la typographie et du logo.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 4,
-      "title": "titre 4",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Les Entretiens",
+      "description": "Pour avoir toutes les informations nécessaires au projet, nous sommes allés nous informer auprès de professionnels du domaine.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 5,
-      "title": "titre 5",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Les Carrousels",
+      "description": "Création de carrousels à destination des réseaux sociaux pour information sur les dangers et l’utilisation de l’intelligence artificielle.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 6,
-      "title": "titre 6",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Construction du jeu",
+      "description": "Pour comprendre les enjeux de l’intelligence artificielle de façon plus concrète, nous avons créé un jeu reprenant les codes de ChatGPT.",
       "image": "../assets/videos/vache.jpg"
     },
     {
       "id": 7,
-      "title": "titre 7",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
+      "title": "Le Webdoc",
+      "description": "Création d’un site web répertoriant tout notre travail (accès au jeu, carrousel, vidéos, solutions, etc…).",
       "image": "../assets/videos/vache.jpg"
-    },
-    {
-      "id": 8,
-      "title": "titre 8",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
-      "image": "../assets/videos/vache.jpg"
-    },
-    {
-      "id": 9,
-      "title": "titre 9",
-      "description": "Ce web doc servira à présenter l’ensemble de notre projet lors des portes ouvertes et/ou de la présentation finale.",
-      "image": "../assets/videos/vache.jpg"
-    }  
+    }
   ]
