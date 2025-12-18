@@ -17,6 +17,10 @@
         @apply font-archivo;
         @apply text-white;
     }
+
+    strong{
+        @apply font-extrabold
+    }
 }
 
 /* Exemple : bouton */

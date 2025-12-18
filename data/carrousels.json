@@ -1,31 +1,91 @@
 [
     {
       "id": 1,
-      "thumbnail": "../assets/carrousels/poste-1-1.jpg",
+      "thumbnail": "../assets/carrousels/post-1-1.webp",
       "images": [
-        "../assets/carrousels/poste-1-1.jpg",
-        "../assets/carrousels/poste-1-2.jpg",
-        "../assets/carrousels/poste-1-3.jpg"
+        "../assets/carrousels/post-1-1.webp",
+        "../assets/carrousels/post-1-2.webp",
+        "../assets/carrousels/post-1-3.webp"
       ]
     },
     {
       "id": 2,
-      "thumbnail": "../assets/carrousels/poste-2-1.jpg",
+      "thumbnail": "../assets/carrousels/post-2-1.webp",
       "images": [
-        "../assets/carrousels/poste-2-1.jpg",
-        "../assets/carrousels/poste-2-2.jpg",
-        "../assets/carrousels/poste-2-3.jpg",
-        "../assets/carrousels/poste-2-4.jpg"
+        "../assets/carrousels/post-2-1.webp",
+        "../assets/carrousels/post-2-2.webp",
+        "../assets/carrousels/post-2-3.webp",
+        "../assets/carrousels/post-2-4.webp"
       ]
     },
     {
       "id": 3,
-      "thumbnail": "../assets/carrousels/poste-3-1.jpg",
+      "thumbnail": "../assets/carrousels/post-3-1.webp",
       "images": [
-        "../assets/carrousels/poste-3-1.jpg",
-        "../assets/carrousels/poste-3-2.jpg",
-        "../assets/carrousels/poste-3-3.jpg",
-        "../assets/carrousels/poste-3-4.jpg"
+        "../assets/carrousels/post-3-1.webp",
+        "../assets/carrousels/post-3-2.webp",
+        "../assets/carrousels/post-3-3.webp",
+        "../assets/carrousels/post-3-4.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "thumbnail": "../assets/carrousels/post-4-1.webp",
+      "images": [
+        "../assets/carrousels/post-4-1.webp",
+        "../assets/carrousels/post-4-2.webp",
+        "../assets/carrousels/post-4-3.webp",
+        "../assets/carrousels/post-4-4.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "thumbnail": "../assets/carrousels/post-5-1.webp",
+      "images": [
+        "../assets/carrousels/post-5-1.webp",
+        "../assets/carrousels/post-5-2.webp",
+        "../assets/carrousels/post-5-3.webp",
+        "../assets/carrousels/post-5-4.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "thumbnail": "../assets/carrousels/post-6-1.webp",
+      "images": [
+        "../assets/carrousels/post-6-1.webp",
+        "../assets/carrousels/post-6-2.webp",
+        "../assets/carrousels/post-6-3.webp",
+        "../assets/carrousels/post-6-4.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "thumbnail": "../assets/carrousels/post-7-1.webp",
+      "images": [
+        "../assets/carrousels/post-7-1.webp",
+        "../assets/carrousels/post-7-2.webp",
+        "../assets/carrousels/post-7-3.webp",
+        "../assets/carrousels/post-7-4.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "thumbnail": "../assets/carrousels/post-8-1.webp",
+      "images": [
+        "../assets/carrousels/post-8-1.webp",
+        "../assets/carrousels/post-8-2.webp",
+        "../assets/carrousels/post-8-3.webp",
+        "../assets/carrousels/post-8-4.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "thumbnail": "../assets/carrousels/post-9-1.webp",
+      "images": [
+        "../assets/carrousels/post-9-1.webp",
+        "../assets/carrousels/post-9-2.webp",
+        "../assets/carrousels/post-9-3.webp",
+        "../assets/carrousels/post-9-4.webp"
       ]
     }
   ]
