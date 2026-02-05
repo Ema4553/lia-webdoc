@@ -38,7 +38,7 @@ function renderInfo() {
     infoSolution.innerHTML = `
         <img src="${solutionData[index].image}" alt="Sur-téléchargement" class="object-contain mx-auto p-5 ${index == 1 ? 'h-60' : 'w-60'}">
         <div class="flex flex-col text-start gap-5">
-            <h2 class="text-lg lg:text-2xl">${solutionData[index].title}</h2>
+            <h2 class="text-lg lg:text-xl">${solutionData[index].title}</h2>
             <p class="font-light text-sm lg:text-lg">${solutionData[index].description}</p>
         </div>
         

@@ -3,42 +3,42 @@
       "id": 1,
       "title": "Présentation du projet",
       "description": "Réflexion sur le sujet, définition de nos objectifs, choix des médias/supports pour notre projet.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/présentation_du_projet.jpg"
     },
     {
       "id": 2,
       "title": "Répartition du travail",
       "description": "Chaque membre apporte les compétences de son parcours. Il y a trois équipes, la team création, la team communication et la team développement web.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/répartition_du_travail.jpg"
     },
     {
       "id": 3,
       "title": "La Direction Artistique",
       "description": "Création de l’identité visuelle de LIA par l’équipe créa avec le choix des couleurs, de la typographie et du logo.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/direction_artistique.jpg"
     },
     {
       "id": 4,
       "title": "Les Entretiens",
       "description": "Pour avoir toutes les informations nécessaires au projet, nous sommes allés nous informer auprès de professionnels du domaine.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/entretiens.jpg"
     },
     {
       "id": 5,
       "title": "Les Carrousels",
       "description": "Création de carrousels à destination des réseaux sociaux pour information sur les dangers et l’utilisation de l’intelligence artificielle.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/carrousels.jpg"
     },
     {
       "id": 6,
       "title": "Construction du jeu",
       "description": "Pour comprendre les enjeux de l’intelligence artificielle de façon plus concrète, nous avons créé un jeu reprenant les codes de ChatGPT.",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/jeu_V2.jpg"
     },
     {
       "id": 7,
       "title": "Le Webdoc",
       "description": "Création d’un site web répertoriant tout notre travail (accès au jeu, carrousel, vidéos, solutions, etc…).",
-      "image": "../assets/videos/vache.jpg"
+      "image": "../assets/videos/webdoc.jpg"
     }
   ]

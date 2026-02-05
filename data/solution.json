@@ -3,12 +3,12 @@
         "solution_id": 1,
         "image" : "../assets/solution/probleme.webp",
         "title": "La situation actuelle",
-        "description": "Pendant les cours, les étudiants d'une classe doivent télécharger les mêmes fichiers (parfois plusieurs gigas) à partir de serveurs situés partout dans le monde. <br><br> Ceci se traduit par 20 étudiants effectuant <strong>20 requêtes (1)</strong> vers ce serveur et recevant <strong>20 réponses (2)</strong>, ce qui génère une pollution proportionnelle au nombre d'étudiants."
+        "description": "Dans un flux de données classique, un groupe de 20 personnes, génère <strong>20 requêtes (1)</strong> individuelles vers un serveur web.<br><br>En retour, ce serveur doit renvoyer <strong>20 réponses (2)</strong> contenant chacune le fichier complet à travers le réseau internet mondial."
     },
     {
         "solution_id": 2,
         "image" : "../assets/solution/solution.webp",
         "title" : "Notre solution",
-        "description": "Chaque machine cliente utilise un petit proxy qui intercepte les demandes de packages et les redirige vers le serveur HTTP central. Cela permet de contrôler et centraliser toutes les requêtes."
+        "description": "Dans un flux de données optimisé, 20 étudiants, génèrent <strong> 20 requêtes (1) </strong> interceptés par un serveur à l’IUT. Ce serveur <strong> vérifie alors s'il possède déjà le fichier (2) </strong> dans sa mémoire : <br><br> Si le fichier est absent, il effectue <strong> une seule requête (3) </strong> vers le serveur web pour le récupérer et le stocker localement. <br><br> Ensuite le serveur de l'IUT <strong> envoie le fichier stocké en réponse (4) </strong> aux 20 étudiants simultanément via le réseau local."
     }
 ]
